@@ -59,7 +59,7 @@ ax.grid(True)
 st.pyplot(fig)
 
 # Methods / notes
-with st.expander("What happens under the hood?"):
+with st.expander("Behind the scenes"):
     st.markdown(
         "- Drop rows with missing `value`.\n"
         "- Parse `date` to datetime; drop rows where parsing fails.\n"
